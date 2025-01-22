@@ -93,6 +93,19 @@
             padding: 15px;
             font-size: 0.9rem;
         }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -125,6 +138,13 @@
                 <textarea name="message" rows="4" placeholder="Tell us about your needs" required></textarea>
                 <button type="submit">Get My Free Quote</button>
             </form>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <section class="image-gallery">
+            <img src="images/Camera1.jpg" alt="Security camera installation">
+            <img src="images/Camera1.jpg" alt="Professional technician installing cameras">
+            <img src="images/Camera1.jpg" alt="Modern security cameras">
         </section>
     </main>
 
